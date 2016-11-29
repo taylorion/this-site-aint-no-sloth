@@ -1,0 +1,77 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Verdana, sans-serif;
+  background-color: #bea586;
+  background-image: url("../images/sloth-bg.svg");
+  background-repeat: repeat;
+  background-size: 48px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #fff;
+  background: linear-gradient(to top, transparent, rgba(28, 14, 0, 0), rgba(28, 14, 0, 1));
+  width: 100%;
+  text-shadow: 2px 2px #000;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+figcaption {
+  font-family: Georgia, serif;
+  font-style: italic;
+  border-bottom: 2px solid rgb(28, 14, 0);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+main {
+  background-color: #fff;
+}
+
+.banner {
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+header {
+  background-color: #fff;
+  border-top: 2px solid rgb(28, 14, 0);
+  border-bottom: 2px solid rgb(28, 14, 0);
+}
+
+.embed {
+  border-top: 2px solid rgb(28, 14, 0);
+}
+
+.embed-item {
+  border-top: 2px solid #fff;
+}
+
+a {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #fff;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
